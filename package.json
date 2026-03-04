@@ -1,0 +1,11 @@
+{
+  "name": "smarter-technologies-robotic-automation-factory",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node sort.mjs",
+    "start": "node server.mjs"
+  }
+}
+

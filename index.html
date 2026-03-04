@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Package Sorter · Smarter Technology</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body style="margin:0;">
+    <div id="root"></div>
+
+    <!-- React 18 from CDN -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- Babel to compile JSX in the browser -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Expose sort / runTests from the shared core module -->
+    <script type="module" src="./sort-browser.mjs"></script>
+
+    <!-- React UI (uses JSX; compiled by Babel in the browser) -->
+    <script type="text/babel" data-type="module" src="./package_sorter.jsx"></script>
+  </body>
+</html>
+
